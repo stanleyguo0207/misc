@@ -1,8 +1,9 @@
 # https://doc.rust-lang.org/cargo/reference/manifest.html
+# https://doc.rust-lang.org/stable/edition-guide/
 
 [workspace]
 resolver = "2"
-members = ["hello_world"]
+members = ["hello_world", "penguin_data"]
 
 [workspace.package]
 authors = ["stanleyguo0207 <stanleyguo0207@163.com>"]
