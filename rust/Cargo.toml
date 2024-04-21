@@ -1,0 +1,14 @@
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+resolver = "2"
+members = ["hello_world"]
+
+[workspace.package]
+authors = ["stanleyguo0207 <stanleyguo0207@163.com>"]
+edition = "2021"
+rust-version = "1.77.0"
+readme = "README.md"
+repository = "https://github.com/stanleyguo0207/misc.git"
+license = "MIT"
+categories = []
